@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.my-area {
+  width: 38%;
+
+  margin: auto;
+  /* margin-top: 1%; */
+  margin-left: 17%;
+  backdrop-filter: blur(10px);
+
+  /* background-image: url(https://media.istockphoto.com/id/1324413691/photo/beautiful-sky-with-white-clouds.jpg?s=612x612&w=0&k=20&c=40a8JIoRJ1BAI4XeyEouZl0QbVAJToDBRQn31S3FGzk=);
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+  /* height:  380px; */
+  /* padding: 30px; */
+  border-radius: 20px;
+}
+main {
+  background-image: url(https://miro.medium.com/v2/resize:fit:5120/1*GsImz-edoeuqCMfKxDus0w.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(217, 232, 241); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+height: 700px;
+  /* height: 600px; */
+}
+.my-area h1 {
+  padding: 10px 0 0 50px;
+  padding-left: 0;
+  text-align: center;
+}
+.my-area h2 {
+  padding: 10px 0 0px 50px;
+  padding-left: 0;
+  text-align: center;
+}
+.my-area span {
+  padding-left: 5%;
+
+  font-size: 20px;
+  text-align: center;
+}
+.input {
+  background-color: rgb(87, 158, 250);
+
+  outline: none;
+  /* background-color: rgb(226, 239, 244); */
+
+  backdrop-filter: blur(15px);
+
+  margin: 1% 1% 2% 0%;
+
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  backdrop-filter: blur(15px);
+
+  /* background-color: rgb(59, 126, 243); */
+}
+.btn {
+  background-color: rgb(87, 158, 250);
+
+  /* background-color: rgb(226, 239, 244); */
+  backdrop-filter: blur(15px);
+
+  margin: 3% 1% 1% 0%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  /* background-color: rgb(59, 126, 243); */
+  border: none;
+}
+::placeholder {
+  color: black;
+}
+.inputs-div {
+  background-color: rgb(206, 243, 59);
+  width: 270px;
+  margin: 0% 0 0 38%;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+
+
+  /* background-color: rgb(59, 126, 243); */
+}
+/* .inputs-div-2{
+    backdrop-filter: blur(15px);
+
+    background-color: rgb(59, 126, 243);
+    width: 270px;
+    margin: 0% 0 0 38%;
+    border-radius: 10px;
+
+} */
+#img {
+  width: 40%;
+  margin: 3% 0 0 28%;
+}
+.other-elements {
+  margin-left: 13%;
+  margin-top: 7%;
+  padding-bottom: 5%;
+  /* margin: 18% 5% 10 50%; */
+}
+#wind {
+  padding-left: 3%;
+  padding-right: 2%;
+}
+#inputs {
+  background-color: rgb(87, 158, 250);
+
+  /* background-color: rgb(226, 239, 244); */
+  width: 270px;
+  margin: 0% 0 0% 38%;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+
+  /* background-color: rgb(59, 126, 243); */
+}
+.container-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainDiv {
+  width: 50%;
+  display: flex;
+}
+.mainDiv #city-name {
+  display: inline;
+  margin: 400px 0 0 5%;
+  color: rgb(0, 43, 198);
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 70px;
+}
+
+#city-temp {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+#spans {
+  margin-left: 47%;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: right;
+}
+#p {
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-bottom: 2%;
+}
+::placeholder{
+  font-size: 20px;
+  color: white;
+}
+#search-icon{
+  font-size: 17px;
+  color: white;
+}
